@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/favicon.png">
+	<title>This is first class</title>
+</head>
+<body>
+   
+   <div class="tbl">
+   	<table border="1px" cellspacing="0" cellpadding="20px" width="100%">
+   		<tr>
+   			<th style="background-color: #32328e; color: #fff">SI</th>
+   			<th style="background-color: #32328e; color: #fff">Tag Name</th>
+   			<th style="background-color: #32328e; color: #fff">Description</th>
+   			<th style="background-color: #32328e; color: #fff">Element</th>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>01</td>
+   			<td>!DOCTYPE</td>
+   			<td>Defines the document type</td>
+   			<td>No Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>02</td>
+   			<td>html</td>
+   			<td>Defines an HTML document</td>
+   			<td>No Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>03</td>
+   			<td>head</td>
+   			<td>Defines information about the document</td>
+   			<td>No Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>04</td>
+   			<td>title</td>
+   			<td>Defines a title for the document</td>
+   			<td>No Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>05</td>
+   			<td>body</td>
+   			<td>Defines the document's body</td>
+   			<td>No Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>06</td>
+   			<td>h1 to h6</td> 
+   			<td>Defines HTML headings</td>
+   			<td>Block Element</td>			
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>07</td>
+   			<td>p</td> 
+   			<td>Defines a paragraph</td>
+   			<td>Block Element</td>			
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>08</td>
+   			<td>br</td>
+   			<td>Inserts a single line break</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>09</td>
+   			<td>hr</td>
+   			<td>Defines a thematic change in the content</td>
+   			<td>Block Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>10</td>
+   			<td>!--...--</td>
+   			<td>Defines a comment</td>
+   			<td>No Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>11</td>
+   			<td>abbr</td>
+   			<td>Defines an abbreviation or an acronym</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>12</td>
+   			<td>adress</td>
+   			<td>Defines contact information for the author/owner of a document/article</td>
+   			<td>Block Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>13</td>
+   			<td>b</td>
+   			<td>Defines bold text</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>14</td>
+   			<td>bdi</td>
+   			<td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>15</td>
+   			<td>bdo</td>
+   			<td>Overrides the current text direction</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>16</td>
+   			<td>blockquote</td>
+   			<td>Defines a section that is quoted from another source</td>
+   			<td>Block Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>17</td>
+   			<td>cite</td>
+   			<td>Defines the title of a work</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>18</td>
+   			<td>code</td>
+   			<td>Defines a piece of computer code</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>19</td>
+   			<td>del</td>
+   			<td>Defines text that has been deleted from a document</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>20</td>
+   			<td>dfn</td>
+   			<td>Represents the defining instance of a term</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>21</td>
+   			<td>select</td>
+   			<td>Defines a drop-down list</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>22</td>
+   			<td>em</td>
+   			<td>Defines emphasized text </td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>23</td>
+   			<td>i</td>
+   			<td>Defines a part of text in an alternate voice or mood</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>24</td>
+   			<td>ins</td>
+   			<td>Defines a text that has been inserted into a document</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>25</td>
+   			<td>kvd</td>
+   			<td>Defines keyboard input</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>26</td>
+   			<td>mark</td>
+   			<td>Defines marked/highlighted text</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>27</td>
+   			<td>pre</td>
+   			<td>Defines preformatted text</td>
+   			<td>Block Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>28</td>
+   			<td>meter</td>
+   			<td>Defines a scalar measurement within a known range (a gauge)</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>29</td>
+   			<td>progress</td>
+   			<td>Represents the progress of a task</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>30</td>
+   			<td>q</td>
+   			<td>Defines a short quotation</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>31</td>
+   			<td>rp</td>
+   			<td>Defines what to show in browsers that do not support ruby annotations</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>32</td>
+   			<td>rt</td>
+   			<td>Defines an explanation/pronunciation of characters (for East Asian typography)</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>33</td>
+   			<td>ruby</td>
+   			<td>Defines a ruby annotation (for East Asian typography)</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>34</td>
+   			<td>s</td>
+   			<td>Defines text that is no longer correct</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>35</td>
+   			<td>samp</td>
+   			<td>Defines sample output from a computer program</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>36</td>
+   			<td>small</td>
+   			<td>Defines smaller text</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>37</td>
+   			<td>strong</td>
+   			<td>Defines important text</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>38</td>
+   			<td>sub</td>
+   			<td>Defines subscripted text</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>39</td>
+   			<td>sup</td>
+   			<td>Defines superscripted text</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>40</td>
+   			<td>template</td>
+   			<td>Defines a template</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>41</td>
+   			<td>time</td>
+   			<td>Defines a date/time</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>42</td>
+   			<td>u</td>
+   			<td>Defines text that should be stylistically different from normal text</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>43</td>
+   			<td>var</td>
+   			<td>Defines a variable</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>44</td>
+   			<td>wbr</td>
+   			<td>Defines a possible line-break</td>
+   			<td></td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>45</td>
+   			<td>form</td>
+   			<td>Defines an HTML form for user input</td>
+   			<td>Block Element</td>
+   		</tr>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>46</td>
+   			<td>input</td>
+   			<td>Defines an input control</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>47</td>
+   			<td>textarea</td>
+   			<td>Defines a multiline input control (text area)</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>48</td>
+   			<td>button</td>
+   			<td>Defines a clickable button</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>49</td>
+   			<td>optgroup</td>
+   			<td>Defines a group of related options in a drop-down list</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>50</td>
+   			<td>option</td>
+   			<td>Defines an option in a drop-down list</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>51</td>
+   			<td>label</td>
+   			<td>Defines a label for an input element</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>52</td>
+   			<td>fieldset</td>
+   			<td>Groups related elements in a form</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>53</td>
+   			<td>legend</td>
+   			<td>Defines a caption for a fieldset element</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>54</td>
+   			<td>datalist</td>
+   			<td>Specifies a list of pre-defined options for input controls</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>55</td>
+   			<td>output</td>
+   			<td>Defines the result of a calculation</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>56</td>
+   			<td>iframe</td>
+   			<td>Defines an inline frame</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>57</td>
+   			<td>img</td>
+   			<td>Defines an image</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>58</td>
+   			<td>map</td>
+   			<td>Defines a client-side image-map</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>59</td>
+   			<td>area</td>
+   			<td>Defines an area inside an image-map</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>60</td>
+   			<td>canvas</td>
+   			<td>Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>61</td>
+   			<td>figcaption</td>
+   			<td>Defines a caption for a figure element</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>62</td>
+   			<td>figure</td>
+   			<td>Specifies self-contained content</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>63</td>
+   			<td>picture</td>
+   			<td>Defines a container for multiple image resources</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>64</td>
+   			<td>svg</td>
+   			<td>Defines a container for SVG graphics</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>65</td>
+   			<td>audio</td>
+   			<td>Defines sound content</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>66</td>
+   			<td>source</td>
+   			<td>Defines multiple media resources for media elements (video, audio and picture)</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>67</td>
+   			<td>track</td>
+   			<td>Defines text tracks for media elements (video and audio)</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>68</td>
+   			<td>video</td>
+   			<td>Defines a video or movie</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>69</td>
+   			<td>a</td>
+   			<td>Defines a hyperlink</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>70</td>
+   			<td>link</td>
+   			<td>Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>71</td>
+   			<td>nav</td>
+   			<td>Defines navigation links</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>72</td>
+   			<td>ul</td>
+   			<td>Defines an unordered list</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>73</td>
+   			<td>ol</td>
+   			<td>Defines an ordered list</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>74</td>
+   			<td>li</td>
+   			<td>Defines a list item</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>75</td>
+   			<td>dl</td>
+   			<td>Defines a description list</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>76</td>
+   			<td>dt</td>
+   			<td>Defines a term/name in a description list</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>77</td>
+   			<td>dd</td>
+   			<td>Defines a description of a term/name in a description list</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>78</td>
+   			<td>table</td>
+   			<td>Defines a table</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>79</td>
+   			<td>caption</td>
+   			<td>Defines a table caption</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>80</td>
+   			<td>th</td>
+   			<td>Defines a header cell in a table</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>81</td>
+   			<td>tr</td>
+   			<td>Defines a row in a table</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>82</td>
+   			<td>td</td>
+   			<td>Defines a cell in a table</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>83</td>
+   			<td>thead</td>
+   			<td>Groups the header content in a table</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>84</td>
+   			<td>tbody</td>
+   			<td>Groups the body content in a table</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>85</td>
+   			<td>tfoot</td>
+   			<td>Groups the footer content in a table</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>86</td>
+   			<td>col</td>
+   			<td>Specifies column properties for each column within a colgroup element</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>87</td>
+   			<td>colgroup</td>
+   			<td>Specifies a group of one or more columns in a table for formatting</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>88</td>
+   			<td>style</td>
+   			<td>Defines style information for a document</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>89</td>
+   			<td>div</td>
+   			<td>Defines a section in a document</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>90</td>
+   			<td>span</td>
+   			<td>Defines a section in a document</td>
+   			<td>Inline Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>91</td>
+   			<td>header</td>
+   			<td>Defines a header for a document or section</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>92</td>
+   			<td>footer</td>
+   			<td>Defines a footer for a document or section</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>93</td>
+   			<td>main</td>
+   			<td>Specifies the main content of a document</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>94</td>
+   			<td>section</td>
+   			<td>Defines a section in a document</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>95</td>
+   			<td>article</td>
+   			<td>Defines an article</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>96</td>
+   			<td>aside</td>
+   			<td>Defines content aside from the page content</td>
+   			<td>Block Element</td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>97</td>
+   			<td>details</td>
+   			<td>Defines additional details that the user can view or hide</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>98</td>
+   			<td>dialog</td>
+   			<td>Defines a dialog box or window</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>99</td>
+   			<td>summary</td>
+   			<td>Defines a visible heading for a details element</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td>100</td>
+   			<td>data</td>
+   			<td>Links the given content with a machine-readable translation</td>
+   			<td></td>
+   		</tr>
+   		<tr style="text-align: center;">
+   			<td></td>
+   			<td></td>
+   			<td></td>
+   			<td></td>
+   		</tr>
+   	</table>
+   </div>
+</body>
+</html>
